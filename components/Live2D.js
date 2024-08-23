@@ -34,11 +34,11 @@ export default function Live2D() {
     }
   }, [theme])
 
-  function handleClick() {
-    if (petSwitchTheme) {
-      switchTheme()
-    }
-  }
+  // function handleClick() {
+  //   if (petSwitchTheme) {
+  //     switchTheme()
+  //   }
+  // }
 
   if (!showPet) {
     return <></>
